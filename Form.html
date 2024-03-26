@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body bgcolor="skyblue">
+    <center>
+        <h1>Personal Information Form</h1>
+        <table bgcolor="yellow">
+            <form>
+                <tr>
+                    <td><label for="FName">First Name</label></td>
+                    <td><input type="text" id="FName"></td>
+                </tr>
+                <tr>
+                    <td><label for="LName">Last Name</label></td>
+                    <td><input type="text" id="LName"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Sex">Sex</label></td>
+                    <td>
+                        <input type="radio" name="Sex" id="Male" value="Male">Male
+                        <input type="radio" name="Sex" id="Female" value="Female">Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="Country">Country</label></td>
+                    <td><Select name="Country" id="Country">
+                            <option>Select an Option</option>
+                            <option value="Australia">Australia</option>
+                            <option value="India">India</option>
+                            <option value="England">England</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Mexico">Mexico</option>
+                        </Select></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Message">Message</label></td>
+                    <td><textarea name="Message" id="Message" cols="30" rows="10"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Email">Email</label></td>
+                    <td><input type="email" id="Email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Password">Password</label></td>
+                    <td><input type="password" id="Password"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="DOB">Date of Birth</label></td>
+                    <td><input type="date" id="DOB"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Subscribe">Subscribe Us.</label></td>
+                    <td><input type="checkbox" id="Subscribe"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input type="Submit" value="Submit">
+                        <input type="reset" value="reset">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </center>
+</body>
+</html>
